@@ -89,12 +89,11 @@ module.exports = LDAPClient;
 ### Configure application
 ```javascript
 exports.config = {
-    ldapServerUrl: '',
-    ldapUser: '',
-    ldapPassword: "",
+    ldapServerUrl: 'ldap://host:port',
+    ldapUser: 'testUser',
+    ldapPassword: "pass123",
     adSearchAttributeName: 'sAMAccountName',
-    usersContainerDn: 'DC=corp,DC=local',
-    baseSecurityGroupDn: '',
+    usersContainerDn: 'DC=corp,DC=example',
 };
 
 ```
