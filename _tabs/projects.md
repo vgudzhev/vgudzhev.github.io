@@ -7,6 +7,15 @@ order: 2
 
 A selection of projects I've built or contributed to.
 
+### [Build Tools for VMware Aria](https://github.com/vmware/build-tools-for-vmware-aria)
+`Java` · `TypeScript` · ★ 57 · Open Source @ VMware
+
+DevOps toolchain for VMware Aria Suite and VMware Cloud Director — enables development and release management workflows for cloud automation solutions (vRO, vRA, VCD). Covers IaC pipelines, package management, and content lifecycle for enterprise Aria environments.
+
+*Open source contributor.*
+
+---
+
 ### [DiagramTool](https://github.com/vgudzhev/DiagramTool)
 `JavaScript` · ★ 6
 
