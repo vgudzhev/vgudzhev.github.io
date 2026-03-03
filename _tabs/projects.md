@@ -16,6 +16,13 @@ DevOps toolchain for VMware Aria Suite and VMware Cloud Director — enables dev
 
 ---
 
+### [bg-egn-helper](https://github.com/vgudzhev/bg-egn-helper)
+`JavaScript`
+
+Utility library for Bulgarian EGN (personal identification numbers) — validates, generates, and extracts information (birth date, gender, region) from any EGN number.
+
+---
+
 ### [DiagramTool](https://github.com/vgudzhev/DiagramTool)
 `JavaScript` · ★ 6
 
