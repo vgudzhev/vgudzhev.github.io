@@ -1,0 +1,98 @@
+theme: jekyll-theme-chirpy
+
+lang: en
+timezone: Europe/Sofia
+
+title: Vasil Gudzhev
+tagline: Lead Cloud Automation Developer · AWS Certified Solutions Architect
+
+description: >-
+  Personal blog and portfolio of Vasil Gudzhev — cloud automation,
+  infrastructure-as-code, and software engineering insights.
+
+url: "https://vgudzhev.github.io"
+baseurl: ""
+
+github:
+  username: vgudzhev
+
+social:
+  name: Vasil Gudzhev
+  email: vgudzhev@gmail.com
+  links:
+    - https://linkedin.com/in/vgudzhev
+    - https://github.com/vgudzhev
+
+author:
+  name: Vasil Gudzhev
+  url: https://vgudzhev.github.io
+
+avatar: ""
+
+toc: true
+
+paginate: 10
+
+# Analytics (leave empty to disable)
+google_analytics:
+  id: ""
+
+# Comments (leave empty to disable)
+comments:
+  active: ""
+
+# Self-hosted fonts
+webfonts: true
+
+# --- DO NOT TOUCH BELOW --- #
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _tabs
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - tools
+  - README.md
+  - CHANGELOG.md
+  - LICENSE
+  - "rollup.config.js"
+  - "package*.json"
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
