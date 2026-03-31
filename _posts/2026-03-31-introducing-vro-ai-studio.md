@@ -9,6 +9,16 @@ If you've spent time writing automation for VMware Aria Orchestrator (vRO), you 
 
 vRO AI Studio is a VS Code extension built to close that gap. It embeds vRO-specific AI assistance directly in your editor — no context switching, no copy-pasting, no re-explaining the platform on every prompt.
 
+## The Foundation: Build Tools for VMware Aria
+
+Before getting into the extension itself, it's worth understanding the ecosystem it sits on top of.
+
+[Build Tools for VMware Aria](https://github.com/vmware/build-tools-for-vmware-aria) is VMware's open-source DevOps toolkit for the entire Aria Suite. For vRO specifically, it provides the standard project structure for organizing actions and modules, the `vro-types` package with TypeScript type definitions for all vRO global APIs, a Maven plugin with the `mvn vro:push` command that compiles and deploys your code to a live vRO instance, and a Jasmine-based testing framework that can run your action specs locally without a live server.
+
+This is the toolchain that serious vRO teams use. It brings vRO development into a proper software engineering workflow — version control, local testing, CI/CD pipelines, repeatable deployments. The problem is that even with all of that in place, the actual writing of actions, tests, and documentation is still entirely manual.
+
+That's the gap vRO AI Studio fills. It doesn't replace build-tools — it layers AI assistance on top of it, inside the editor where you're already working.
+
 ## The Problem It Solves
 
 vRO development has a high knowledge floor. You need to know which APIs are available in the runtime, how to structure actions and modules, what patterns to avoid in the vRO scripting engine, and how to write testable code against a proprietary platform. Onboarding new developers is slow, code review is manual, and writing Jasmine tests for vRO actions is tedious enough that many teams skip it entirely.
@@ -25,13 +35,13 @@ vRO AI Studio attacks all of these pain points at once with five focused tools.
 
 **Explain Code** — Translates any action or workflow into plain English, Markdown documentation, a README section, or an ops runbook. Useful for onboarding, handoffs, and documentation that actually stays up to date.
 
-**Onboarding Assistant** — Scans your local environment (Java, Maven, Node versions, Maven settings), detects configuration issues that would block `mvn vro:push`, and walks new developers through the five setup stages interactively.
+**Onboarding Assistant** — Scans your local environment (Java, Maven, Node versions, Maven settings) against the requirements for build-tools-for-vmware-aria, detects configuration issues that would block `mvn vro:push`, and walks new developers through the five setup stages interactively. Getting the build-tools toolchain configured correctly is often the first wall new team members hit — this automates the diagnosis.
 
 ## How It's Built
 
 The extension is a standard VS Code webview extension written in TypeScript. It calls the Claude API directly using Node's built-in `https` module — no external runtime dependencies, which matters for air-gapped enterprise environments. The API endpoint is configurable, so teams running an internal Claude proxy can point the extension there without any code changes.
 
-Every feature uses a system prompt carefully tuned for the vRO platform — not a generic "write TypeScript" prompt, but one that knows the APIs, the runtime constraints, and the common failure modes specific to Aria Orchestrator. That specificity is what makes the output usable without heavy editing.
+Every feature uses a system prompt carefully tuned for the vRO platform — not a generic "write TypeScript" prompt, but one that knows the APIs from `vro-types`, the runtime constraints of the vRO scripting engine, the build-tools project conventions, and the common failure modes specific to Aria Orchestrator. That specificity is what makes the output usable without heavy editing. Generated actions follow the build-tools module structure. Generated tests follow the Jasmine conventions that `mvn test` expects. The AI knows the ecosystem, not just the language.
 
 ## What's Next
 
