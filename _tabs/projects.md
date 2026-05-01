@@ -16,6 +16,13 @@ DevOps toolchain for VMware Aria Suite and VMware Cloud Director — enables dev
 
 ---
 
+### [vRO AI Studio](https://github.com/vgudzhev/vro-ai-studio)
+`TypeScript` · VS Code Extension
+
+AI-powered VS Code extension that brings Claude directly into VMware Aria Orchestrator development. Generates production-ready TypeScript actions, reviews code against your team's standards, writes Jasmine tests, explains actions in plain English, and guides new developers through environment setup.
+
+---
+
 ### [bg-egn-helper](https://github.com/vgudzhev/bg-egn-helper)
 `JavaScript`
 
