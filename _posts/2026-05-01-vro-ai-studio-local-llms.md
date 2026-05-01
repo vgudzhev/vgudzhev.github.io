@@ -18,3 +18,12 @@ That thinking drove a recent update I made to vRO AI Studio. I added support for
 The next step is proper AI orchestration — knowing when to call the big model and when the local one is good enough. To get the best of both worlds you can combine them with approaches like Anthropic's advisor tool pattern and projects like [ai-orchestrator](https://github.com/vgudzhev/ai-orchestrator) that route work intelligently between Claude and local models.
 
 Cost, security, and capability don't have to be a trade-off. They just require a bit more architecture.
+
+---
+
+**Resources:**
+- [Anthropic advisor tool pattern](https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool)
+- [ai-orchestrator](https://github.com/vgudzhev/ai-orchestrator)
+- [Qwen2.5 Coder on Ollama](https://ollama.com/library/qwen2.5-coder)
+- [Code Repo](https://github.com/vgudzhev/vro-ai-studio)
+- [Release v0.3.1](https://github.com/vgudzhev/vro-ai-studio/releases/tag/v0.3.1)
