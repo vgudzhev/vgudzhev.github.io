@@ -23,4 +23,4 @@ I have over 10 years of experience building cloud automation, orchestration, and
 - [Projects](/projects) — open-source and side projects
 - [About](/about) — shorter version of who I am
 
-Feel free to reach out on [LinkedIn](https://linkedin.com/in/vgudzhev) or by [email](mailto:vgudzhev@gmail.com).
+Feel free to reach out on [LinkedIn](https://linkedin.com/in/vgudzhev).

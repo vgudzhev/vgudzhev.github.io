@@ -9,7 +9,6 @@ order: 3
   <h1 style="margin-bottom: 0.25rem;">Vasil Gudzhev</h1>
   <p style="color: var(--text-muted-color); margin: 0;">Lead Cloud Automation Developer · Sofia, Bulgaria</p>
   <p style="margin-top: 0.5rem;">
-    <a href="mailto:vgudzhev@gmail.com">vgudzhev@gmail.com</a> ·
     <a href="https://linkedin.com/in/vgudzhev" target="_blank">LinkedIn</a> ·
     <a href="https://github.com/vgudzhev" target="_blank">GitHub</a>
   </p>

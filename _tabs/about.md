@@ -16,4 +16,4 @@ My career has taken me through enterprise integration, cloud-native development,
 - Languages: TypeScript/JavaScript, Java, Python
 - Distributed systems architecture and enterprise integration
 
-Based in Sofia, Bulgaria. Reach me at [vgudzhev@gmail.com](mailto:vgudzhev@gmail.com) or on [LinkedIn](https://linkedin.com/in/vgudzhev).
+Based in Sofia, Bulgaria. Reach me on [LinkedIn](https://linkedin.com/in/vgudzhev).
