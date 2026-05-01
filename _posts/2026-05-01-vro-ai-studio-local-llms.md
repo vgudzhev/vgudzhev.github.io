@@ -3,6 +3,8 @@ title: "vRO AI Studio: Local LLMs, Cost, and Privacy"
 date: 2026-05-01 12:00:00 +0200
 categories: [VMware, AI]
 tags: [vro, aria-orchestrator, vscode, claude, local-llm, privacy, automation]
+image:
+  path: /assets/Gemini_Generated_Image_eoakxdeoakxdeoak.png
 ---
 
 In the last few weeks I've been seeing more and more discussions around token costs — and it is starting to feel like this has become a bigger concern than data privacy and security.
