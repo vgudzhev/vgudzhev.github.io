@@ -3,6 +3,8 @@ title: "Turning a Jira Ticket Into Shipped Code With a Four-Agent Claude Code Pi
 date: 2026-06-13 12:00:00 +0200
 categories: [AI, Engineering]
 tags: [claude, claude-code, agents, jira, automation]
+image:
+  path: /assets/4agentsWorkflow.png
 ---
 
 If you work on a multi-service codebase, you know the shape of the problem. A ticket lands in Jira. You read it, you think about the architecture, you write the code, you review it, and somewhere along the way the reasoning behind your decisions evaporates. Three weeks later someone asks why a feature was built a certain way and the only record is a terse commit message.
