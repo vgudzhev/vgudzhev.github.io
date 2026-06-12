@@ -9,15 +9,15 @@ Not all code starts with standards. Some was written before you had them. Some w
 
 Review handles all three cases.
 
-## The Problem with Code Review in vRO
+## The problem with code review in vRO
 
 Human reviewers have to hold a lot of context. Does `i` mean a VM index or a retry counter? Is the error being swallowed or logged? Is this SDK call going to pull 10,000 VMs into memory?
 
-The reviewer has to know the runtime, the SDK behavior, and your team's conventions — all at once.
+The reviewer has to know the runtime, the SDK behavior, and your team's conventions, all at once.
 
 Things get missed. Always. The question is which things, and how expensive are they to find later.
 
-## What Happens When You Feed Your Standards to the Review Tab
+## What happens when you feed your standards to the Review tab
 
 When you load your `vro-standards.md` into vRO AI Studio alongside your action, the Review isn't just checking for generic issues. It knows your rules. It flags violations by name.
 
@@ -41,11 +41,11 @@ export function getVms(tag: string): Properties {
 
 Run Review with your standards loaded. Findings:
 
-- **Error** — `VcPlugin.getAllVirtualMachines()` is a blocking synchronous call. Retrieves full inventory before filtering. Use vCenter search APIs with filters instead.
-- **Warning** — Loop index named `i`. Your standards require meaningful names — `vmIndex` or `vmItem`.
-- **Warning** — Empty catch block. Errors are silently swallowed. Standards require `System.error()` with input values before rethrowing.
-- **Warning** — No `System.log()` at function entry. Standards require logging the start of every action with its inputs.
-- **Info** — Boolean condition on power state uses raw SDK enum. Consider extracting to a named helper `isPoweredOff(vm)` for readability.
+- **Error:** `VcPlugin.getAllVirtualMachines()` is a blocking synchronous call. Retrieves full inventory before filtering. Use vCenter search APIs with filters instead.
+- **Warning:** Loop index named `i`. Your standards require meaningful names: `vmIndex` or `vmItem`.
+- **Warning:** Empty catch block. Errors are silently swallowed. Standards require `System.error()` with input values before rethrowing.
+- **Warning:** No `System.log()` at function entry. Standards require logging the start of every action with its inputs.
+- **Info:** Boolean condition on power state uses raw SDK enum. Consider extracting to a named helper `isPoweredOff(vm)` for readability.
 
 The same action, written with the `vro-standards.md` from the start:
 
@@ -84,8 +84,8 @@ export function getVmsByTag(tag: string): Properties {
 }
 ```
 
-Same goal. Different quality. The Review tab tells you exactly what changed and why — citing your own standards back at you.
+Same goal. Different quality. The Review tab tells you exactly what changed and why, citing your own standards back at you.
 
-## What This Looks Like in Practice
+## What this looks like in practice
 
-The new engineer doesn't know the rules yet. Review does. They get the feedback before the PR — not during it. That's the difference.
+The new engineer doesn't know the rules yet. Review does. They get the feedback before the PR, not during it. That's the difference.
