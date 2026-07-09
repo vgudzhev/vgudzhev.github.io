@@ -41,11 +41,6 @@ The Touch Bar isn't the point. Hooks as an ambient event bus is the point. Once 
 
 Now excuse me. One of my tiles just went yellow. And I can tap it.
 
-<video width="100%" controls>
-  <source src="/assets/composition_2026-07-09_12-34-27.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 ---
 
 **tbled** is open source: [github.com/vgudzhev/tbled](https://github.com/vgudzhev/tbled)
