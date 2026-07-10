@@ -39,7 +39,7 @@ No Touch Bar? It mirrors to the menu bar — the same colored dots and names, up
 
 The Touch Bar isn't the point. Hooks as an ambient event bus is the point. Once each session emits structured state into a file, you can render it anywhere: a menu bar, a desk lamp, an RGB keyboard, a Slack status, a smart bulb that turns the whole room yellow when Claude needs you. The hard, careful part — the part I'd actually copy — is the little state machine that refuses to lie about what's happening.
 
-![LED keyboard with session status indicators](/assets/led-keyboard.png)
+![LED keyboard with session status indicators](/assets/keyled.png)
 
 Now excuse me. One of my tiles just went yellow. And I can tap it.
 
