@@ -7,7 +7,7 @@ tags: [claude-code, hooks, macos, automation]
 
 I have three or four Claude Code sessions open at any given moment. One's grinding through a refactor. One's paused on a permission prompt I forgot about. One finished five minutes ago and is just sitting there. I can't tell which is which without Cmd-Tab-ing through a stack of terminal windows like I'm dealing cards.
 
-So I built tbled: one colored tile per session, live on the 2019 MacBook Pro Touch Bar. That strip of glass Apple abandoned and I apparently never will.
+So I built glowbar: one colored tile per session, live on the 2019 MacBook Pro Touch Bar. That strip of glass Apple abandoned and I apparently never will.
 
 🔴 my-api      🟡 webapp      🟢 infra
  working        waiting        ready
@@ -29,7 +29,7 @@ They have names. Each tile is labeled with the session's actual name — not the
 
 They're links. Tap a tile and the terminal tab running that session jumps to the front. No more Cmd-Tab card-dealing — see yellow, tap yellow, you're there. (It matches the tab by the session's TTY, which turns out to be the one thing that reliably survives.)
 
-They're greedy. By default tbled takes over the app region of the Touch Bar — the left part that normally shows Terminal's color swatches or VS Code's debug buttons. I have never once needed a color swatch on a strip of glass below my screen. I constantly need to know which session is waiting on me. Easy trade.
+They're greedy. By default glowbar takes over the app region of the Touch Bar — the left part that normally shows Terminal's color swatches or VS Code's debug buttons. I have never once needed a color swatch on a strip of glass below my screen. I constantly need to know which session is waiting on me. Easy trade.
 
 One word turns it off. tb. On, off, done. Because ambient is great until you're screen-sharing.
 
@@ -45,4 +45,4 @@ Now excuse me. One of my tiles just went yellow. And I can tap it.
 
 ---
 
-**tbled** is open source: [github.com/vgudzhev/tbled](https://github.com/vgudzhev/tbled)
+**glowbar** is open source: [github.com/vgudzhev/glowbar](https://github.com/vgudzhev/glowbar)
