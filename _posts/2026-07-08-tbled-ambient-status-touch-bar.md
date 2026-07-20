@@ -4,7 +4,7 @@ date: 2026-07-08 10:00:00 +0200
 categories: [Engineering]
 tags: [claude-code, hooks, macos, automation]
 image:
-  path: /assets/keyled.png
+  path: /assets/glowbar.png
 ---
 
 I have three or four Claude Code sessions open at any given moment. One's grinding through a refactor. One's paused on a permission prompt I forgot about. One finished five minutes ago and is just sitting there. I can't tell which is which without Cmd-Tab-ing through a stack of terminal windows like I'm dealing cards.
