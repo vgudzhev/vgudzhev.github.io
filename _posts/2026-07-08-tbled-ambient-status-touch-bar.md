@@ -3,6 +3,8 @@ title: "Ambient status lights for Claude Code, on a Touch Bar nobody uses"
 date: 2026-07-08 10:00:00 +0200
 categories: [Engineering]
 tags: [claude-code, hooks, macos, automation]
+image:
+  path: /assets/keyled.png
 ---
 
 I have three or four Claude Code sessions open at any given moment. One's grinding through a refactor. One's paused on a permission prompt I forgot about. One finished five minutes ago and is just sitting there. I can't tell which is which without Cmd-Tab-ing through a stack of terminal windows like I'm dealing cards.
@@ -39,7 +41,7 @@ No Touch Bar? It mirrors to the menu bar — the same colored dots and names, up
 
 The Touch Bar isn't the point. Hooks as an ambient event bus is the point. Once each session emits structured state into a file, you can render it anywhere: a menu bar, a desk lamp, an RGB keyboard, a Slack status, a smart bulb that turns the whole room yellow when Claude needs you. The hard, careful part — the part I'd actually copy — is the little state machine that refuses to lie about what's happening.
 
-![LED keyboard with session status indicators](/assets/keyled.png)
+![LED keyboard with session status indicators](/assets/keyled.png){: width="1376" height="1020"}
 
 Now excuse me. One of my tiles just went yellow. And I can tap it.
 
