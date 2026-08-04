@@ -3,6 +3,8 @@ title: "A Broken Leg and 3,000 Downloads"
 date: 2026-08-04 10:00:00 +0300
 categories: [Engineering]
 tags: [typescript, npm, open-source]
+image:
+  path: /assets/broken-leg-3000-downloads.png
 ---
 
 In the summer of 2017 I broke my leg. For weeks I couldn't do much besides lie in bed with a laptop balanced on a pillow. Bored, medicated, and looking for something to build, I wrote a small npm package called [bg-egn-helper](https://github.com/vgudzhev/bg-egn-helper) — a utility to validate, generate, and parse Bulgarian EGN (ЕГН) numbers. I published it and mostly forgot about it.
