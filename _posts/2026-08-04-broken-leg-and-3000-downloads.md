@@ -13,9 +13,9 @@ In the summer of 2017 I broke my leg. For weeks I couldn't do much besides lie i
 
 For those outside Bulgaria: the EGN (Единен граждански номер) is a 10-digit personal identification number assigned to every Bulgarian citizen. It encodes date of birth, sex, and region of birth, with a check digit at the end. If you've ever worked on a Bulgarian government system, banking app, or anything that touches citizen data, you've had to deal with EGN validation.
 
-## Seven years later
+## Nine years later
 
-Fast forward to 2024. I checked npm one day and discovered that bg-egn-helper had quietly crossed 3,000 downloads. For a niche library serving a country of 7 million people, that number surprised me. People were actually using this thing — the thing I wrote while drifting in and out of painkiller-induced naps.
+Fast forward to 2026. I checked npm one day and discovered that bg-egn-helper had quietly crossed 3,000 downloads. For a niche library serving a country of 7 million people, that number surprised me. People were actually using this thing — the thing I wrote while drifting in and out of painkiller-induced naps.
 
 So I went back and looked at the code. It was... rough.
 
@@ -42,6 +42,6 @@ The API surface stayed small on purpose. You can validate an EGN, generate test 
 
 ## Thank you
 
-To everyone who pulled bg-egn-helper into their projects over the past seven years — thank you. Every download means a lot, especially for something this niche. I hope v2.0.0 is the version you deserved from the start.
+To everyone who pulled bg-egn-helper into their projects over the past nine years — thank you. Every download means a lot, especially for something this niche. I hope v2.0.0 is the version you deserved from the start.
 
 Check out [v2.0.0 on GitHub](https://github.com/vgudzhev/bg-egn-helper).
