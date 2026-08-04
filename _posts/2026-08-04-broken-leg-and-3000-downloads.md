@@ -27,7 +27,7 @@ Here's a highlight reel of what I found:
 - **`validateList()` always returned `true`.** The one function you'd reach for when you have a batch of EGNs to check — and it just nodded along regardless.
 - **July was spelled "Jule."** In my defense, I was on painkillers.
 
-There were seven bugs in total. Seven bugs in a library with three core functions. Not my finest work.
+There were seven bugs in total. Not my finest work.
 
 ## The rewrite
 
@@ -37,8 +37,6 @@ I decided to give bg-egn-helper the rewrite it deserved. Version 2.0.0 is a grou
 - **Dual ESM/CJS** — works in modern bundlers and legacy Node setups alike.
 - **54 tests, 97% coverage** — every edge case I could think of, including the ones I missed the first time.
 - **All 7 bugs fixed** — exports work, `validateList()` actually validates, and July is spelled correctly.
-
-The API surface stayed small on purpose. You can validate an EGN, generate test EGNs for a given date, and parse one into its component parts. That's it. That's the library.
 
 ## Thank you
 
