@@ -25,7 +25,7 @@ I wanted something simple: record the failure, replay it without an API key, ass
 
 ## What I built
 
-[repro](https://github.com/vgudzhev/repro) is a CLI tool that sits between your AI agent and the model API as an HTTP proxy. During recording, it captures every request and response. During replay, it serves the recorded responses back. The agent doesn't know the difference.
+[repro](https://github.com/vgudzhev/repro-md) is a CLI tool that sits between your AI agent and the model API as an HTTP proxy. During recording, it captures every request and response. During replay, it serves the recorded responses back. The agent doesn't know the difference.
 
 ```
 Agent  <-->  repro proxy  <-->  Anthropic API    (recording)
@@ -131,5 +131,5 @@ repro run <id>
 If you have a claude.ai subscription, you can record immediately. No API credits needed. The whole thing is MIT licensed.
 
 - npm: [repro-md](https://www.npmjs.com/package/repro-md)
-- GitHub: [vgudzhev/repro](https://github.com/vgudzhev/repro)
+- GitHub: [vgudzhev/repro](https://github.com/vgudzhev/repro-md)
 - Website: [repro.md](https://repro.md)
