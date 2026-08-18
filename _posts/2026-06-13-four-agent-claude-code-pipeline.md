@@ -22,7 +22,7 @@ We wanted four things:
 - Separation of thinking and doing: architecture decisions made deliberately, reviewed by a human, before any code is written.
 - A human checkpoint at the right moment: after the plan, before the implementation.
 - A consistent QA step that checks the code against the ticket's actual acceptance criteria, not just vibes.
-- An automatic record of the problem, the decisions, and the outcome, stored per ticket.
+- A durable per-ticket record: the approved architecture, what actually changed, and how far the work has got toward production.
 
 ## The fix: a four-agent pipeline
 

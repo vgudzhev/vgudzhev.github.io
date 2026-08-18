@@ -16,6 +16,9 @@ package-lock.json
 # macOS
 .DS_Store
 
+# Drafts
+drafts/
+
 # Claude Code
 CLAUDE.md
 .claude
