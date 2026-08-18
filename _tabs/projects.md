@@ -31,7 +31,7 @@ AI-powered VS Code extension that brings Claude directly into VMware Aria Orches
 ---
 
 ### [bg-egn-helper](https://github.com/vgudzhev/bg-egn-helper)
-`JavaScript`
+`JavaScript` · [npm ↗](https://www.npmjs.com/package/bg-egn-helper)
 
 Utility library for Bulgarian EGN (personal identification numbers) — validates, generates, and extracts information (birth date, gender, region) from any EGN number.
 
