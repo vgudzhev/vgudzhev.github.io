@@ -3,7 +3,6 @@ title: "I Built a Tool That Records AI Agent Failures So I Can Replay Them"
 date: 2026-08-18 10:00:00 +0200
 categories: [AI, Engineering]
 tags: [claude-code, agents, testing, debugging, open-source]
-pin: true
 image:
   path: /assets/Gemini_Generated_Image_repro.jpeg
 ---
