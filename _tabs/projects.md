@@ -16,6 +16,13 @@ DevOps toolchain for VMware Aria Suite and VMware Cloud Director — enables dev
 
 ---
 
+### [repro](https://github.com/vgudzhev/repro)
+`TypeScript` · CLI · [npm ↗](https://www.npmjs.com/package/repro-md) · [Website ↗](https://repro.md)
+
+CLI tool that records AI agent sessions and replays them without an API key. Sits as an HTTP proxy between your agent and the model API, captures every request/response, then serves recordings back on replay. Includes structural assertions (`forbidden_path`, `no_repeat`, `max_calls`) and a one-line CI integration — zero inference cost, zero API keys needed.
+
+---
+
 ### [vRO AI Studio](https://github.com/vgudzhev/vro-ai-studio)
 `TypeScript` · VS Code Extension
 
